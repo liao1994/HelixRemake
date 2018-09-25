@@ -1,28 +1,34 @@
-const gulp         = require('gulp');
-const rollup       = require('rollup-stream');
-const rollupConfig = require('./rollup.config');
-const source       = require('vinyl-source-stream');
-const buffer       = require('vinyl-buffer');
-const sourcemaps   = require('gulp-sourcemaps');
-const rename       = require('gulp-rename');
-const del          = require("del");
+/// <binding />
+var gulp = require("gulp");
+var msbuild = require("gulp-msbuild");
+var debug = require("gulp-debug");
+var foreach = require("gulp-foreach");
+var rename = require("gulp-rename");
+var newer = require("gulp-newer");
+var util = require("gulp-util");
+var runSequence = require("run-sequence");
+var fs = require("fs");
+var yargs = require("yargs").argv;
+var unicorn = require("./scripts/unicorn.js");
+var habitat = require("./scripts/habitat.js");
+var helix = require("./scripts/helix.js");
+var path = require("path");
+var rimrafDir = require("rimraf");
+var rimraf = require("gulp-rimraf");
+var xmlpoke = require("xmlpoke");
 
-const paths = {
-  distributionJS: './dist',
-  sourceJS: './src',
-  website: './../Website'
-};
-const bundleName = 'bundle.js';
+var config;
+if (fs.existsSync("./gulp-config.js.user")) {
+    config = require("./gulp-config.js.user")();
+} else {
+    config = require("./gulp-config.js")();
+}
 
-gulp.task('rollup', () => {                  // define task named 'rollup'
-  return rollup(rollupConfig)                // fire up rollup with existing config file
-    .pipe(source(rollupConfig.input))        // pipe in entry-point JS file
-    .pipe(buffer())                          // buffer the output because many gulp plugins don't support streams
-    .pipe(sourcemaps.init({loadMaps: true})) // fire up sourcemaps
-    .pipe(rename(bundleName))                // rename output to 'bundle.js'
-    .pipe(sourcemaps.write('.'))             // write the sourcemap for 'bundle.js' to 'bundle.js.map'
-    .pipe(gulp.dest(paths.distributionJS));  // spit 'bundle.js' and sourcemap out in the 'dist' folder
-});
+module.exports.config = config;
+
+helix.header("The Habitat source code, tools and processes are examples of Sitecore Helix.",
+    "Habitat is not supported by Sitecore and should be used at your own risk.");
+
 gulp.task("default",
     function(callback) {
         config.runCleanBuilds = true;

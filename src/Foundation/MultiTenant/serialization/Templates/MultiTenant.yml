@@ -1,0 +1,18 @@
+﻿---
+ID: "bb36afc8-a512-4389-9738-6174fea59489"
+Parent: "0fa3db2a-6c3f-43c7-b63f-283c18ca7f23"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/MultiTenant
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180924T140540Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

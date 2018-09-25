@@ -1,0 +1,21 @@
+﻿---
+ID: "52349871-bec7-4b2f-8a56-d3481f79a0ad"
+Parent: "f93b8ab4-13e9-4928-b8b5-139b566434e2"
+Template: "f93b8ab4-13e9-4928-b8b5-139b566434e2"
+Path: /sitecore/templates/Feature/Blog/Interface Templates/_Article/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180925T071017Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9471a174-e608-4d72-9d4b-0614f1707a08"
+      Hint: ArticleTitle
+      Value: $name

@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    @Html.Sitecore().Placeholder("header")
+</head>
+<body>
+<h1>
+    Hello from @Html.Sitecore().CurrentItem.Name
+</h1>
+@Html.Sitecore().Placeholder("content")
+</body>
+@Html.Sitecore().Placeholder("footer")
+</html>

@@ -1,0 +1,13 @@
+﻿---
+ID: "612cceca-6afa-48ca-98a4-24d1f1c9a53e"
+Parent: "369372f6-5660-4d68-8330-340a8cc6cc18"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/Blog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20180924T141518:636733953183176754Z"

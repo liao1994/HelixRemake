@@ -1,0 +1,18 @@
+﻿---
+ID: "4a6a3fa1-73ce-4dc4-8557-6f55e6a3200f"
+Parent: "9ee4b539-5e3f-40dc-84af-dd5554d8aa88"
+Template: "9ee4b539-5e3f-40dc-84af-dd5554d8aa88"
+Path: /sitecore/templates/Feature/Blog/Folder Templates/Blog Folder/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180925T070829Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,21 @@
+﻿---
+ID: "f7e753d8-1700-426f-98a0-d0c8d4649b70"
+Parent: "d5c71b0a-880e-4751-91f7-836196a3b492"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Blog/Interface Templates/_Portfolio/Information/PortfolioBody
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180926T070140Z

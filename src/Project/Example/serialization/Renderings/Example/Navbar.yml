@@ -1,0 +1,21 @@
+﻿---
+ID: "df0484c7-f744-4909-a655-0b633053c660"
+Parent: "cd1259e0-641a-4498-bfcb-2d8294380cce"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/Example/Navbar
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Components/Navbar.cshtml
+- ID: "f4069d71-74d7-4422-941d-54b517cf3001"
+  Hint: Placeholder
+  Value: content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180927T072903Z

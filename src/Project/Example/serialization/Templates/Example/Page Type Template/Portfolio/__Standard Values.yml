@@ -1,0 +1,25 @@
+﻿---
+ID: "80717151-9e2a-423a-9746-27736b512953"
+Parent: "96bf0b0d-7ffd-47d3-854e-c9e1c98df8df"
+Template: "96bf0b0d-7ffd-47d3-854e-c9e1c98df8df"
+Path: /sitecore/templates/Project/Example/Page Type Template/Portfolio/__Standard Values
+DB: master
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180926T070411Z
+    - ID: "480b41fd-de3a-49fe-aba9-efabce9fec87"
+      Hint: PortfolioTitle
+      Value: $name
+    - ID: "f7e753d8-1700-426f-98a0-d0c8d4649b70"
+      Hint: PortfolioBody
+      Value: This is Body text

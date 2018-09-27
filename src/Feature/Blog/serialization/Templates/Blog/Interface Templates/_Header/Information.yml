@@ -1,0 +1,18 @@
+﻿---
+ID: "303d6689-3fed-483b-ac1f-12a25c25c4bc"
+Parent: "8a805a6f-ba64-4af8-8948-66df82ce9a7b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Blog/Interface Templates/_Header/Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180926T110219Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

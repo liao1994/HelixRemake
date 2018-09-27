@@ -1,0 +1,32 @@
+﻿---
+ID: "96bf0b0d-7ffd-47d3-854e-c9e1c98df8df"
+Parent: "85c52146-750d-4e37-8f39-0d2059a0dbb7"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Example/Page Type Template/Portfolio
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/16x16/document_orientation_portrait.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {DB196C12-B8BD-451D-A1F5-05E7C6D74721}
+    {3AD8CB71-52F1-47EF-B7C8-3F7A12EDA2C8}
+    {CA7C2876-A42D-4635-894D-4662294BAAC9}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{80717151-9E2A-423A-9746-27736B512953}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180926T070301Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

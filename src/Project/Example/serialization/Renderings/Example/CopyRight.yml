@@ -1,0 +1,18 @@
+﻿---
+ID: "04305ec6-4d49-492a-ac6b-0d65c7f69f04"
+Parent: "cd1259e0-641a-4498-bfcb-2d8294380cce"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/Example/CopyRight
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Components/CopyRight.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180927T074032Z

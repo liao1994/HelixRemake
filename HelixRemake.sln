@@ -2,6 +2,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopHeaderPage", "TopHeaderPage", "{7DDFFCE8-D1AB-44FD-AFCF-346677ACF562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.TopHeaderPage", "src\Feature\TopHeaderPage\code\Feature.TopHeaderPage.csproj", "{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentContainer", "ContentContainer", "{C587E698-D851-4AE4-AD9A-738AC5D18810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.ContentContainer", "src\Feature\ContentContainer\code\Feature.ContentContainer.csproj", "{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{6B649143-BBE8-466F-B107-4622B0389F0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Contact", "src\Feature\Contact\code\Feature.Contact.csproj", "{FC5B3838-97E1-4807-9351-63EF642A0F98}"
@@ -55,6 +63,38 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.always|Any CPU.ActiveCfg = always|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.always|Any CPU.Build.0 = always|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.always|x64.ActiveCfg = always|x64
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.always|x64.Build.0 = always|x64
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.ci|Any CPU.ActiveCfg = ci|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.ci|Any CPU.Build.0 = ci|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.ci|x64.ActiveCfg = ci|x64
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.ci|x64.Build.0 = ci|x64
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Debug|x64.ActiveCfg = Debug|x64
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Debug|x64.Build.0 = Debug|x64
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Release|x64.ActiveCfg = Release|x64
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E}.Release|x64.Build.0 = Release|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.always|Any CPU.ActiveCfg = always|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.always|Any CPU.Build.0 = always|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.always|x64.ActiveCfg = always|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.always|x64.Build.0 = always|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.ci|Any CPU.ActiveCfg = ci|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.ci|Any CPU.Build.0 = ci|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.ci|x64.ActiveCfg = ci|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.ci|x64.Build.0 = ci|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Debug|x64.ActiveCfg = Debug|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Debug|x64.Build.0 = Debug|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Release|x64.ActiveCfg = Release|x64
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74}.Release|x64.Build.0 = Release|x64
 		{FC5B3838-97E1-4807-9351-63EF642A0F98}.always|Any CPU.ActiveCfg = always|Any CPU
 		{FC5B3838-97E1-4807-9351-63EF642A0F98}.always|Any CPU.Build.0 = always|Any CPU
 		{FC5B3838-97E1-4807-9351-63EF642A0F98}.always|x64.ActiveCfg = always|x64
@@ -172,6 +212,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{7DDFFCE8-D1AB-44FD-AFCF-346677ACF562} = {A9571ECD-582A-4868-8BAC-D43C19A3FA6C}
+		{F7BAEE5F-9F1B-40C0-9304-3589AC5CDD9E} = {7DDFFCE8-D1AB-44FD-AFCF-346677ACF562}
+		{C587E698-D851-4AE4-AD9A-738AC5D18810} = {A9571ECD-582A-4868-8BAC-D43C19A3FA6C}
+		{6C0984A3-A5F5-45D6-A3FC-4EF09D7ECD74} = {C587E698-D851-4AE4-AD9A-738AC5D18810}
 		{6B649143-BBE8-466F-B107-4622B0389F0F} = {A9571ECD-582A-4868-8BAC-D43C19A3FA6C}
 		{FC5B3838-97E1-4807-9351-63EF642A0F98} = {6B649143-BBE8-466F-B107-4622B0389F0F}
 		{D86A4638-33C1-4FDD-9406-F5A50D15E7B2} = {A9571ECD-582A-4868-8BAC-D43C19A3FA6C}
@@ -189,5 +233,6 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF1B3CBB-542B-4D1A-8323-E043709E12A3}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal

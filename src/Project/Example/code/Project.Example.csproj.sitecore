@@ -6,4 +6,16 @@
   <File Include="/Views/Shared/Layout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{2A4F5FDD-1E8C-44CC-9568-C7D0F0C5437D}</Item>
   </File>
+  <File Include="Views\Components\Navbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{DF0484C7-F744-4909-A655-0B633053C660}</Item>
+  </File>
+  <File Include="Views\Components\CopyRight.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{04305EC6-4D49-492A-AC6B-0D65C7F69F04}</Item>
+  </File>
+  <File Include="Views\Components\Footer.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C98FBF88-711B-4627-8177-E62C77069B24}</Item>
+  </File>
+  <File Include="Views\Components\MastHead.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{342DD56C-559C-4C05-B112-471F2BAEE86D}</Item>
+  </File>
 </Project>

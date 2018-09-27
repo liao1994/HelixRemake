@@ -1,0 +1,23 @@
+﻿---
+ID: "b15a4181-5b8e-4db6-a2f6-448e2dcc9673"
+Parent: "59191524-2efc-4b12-a0bc-18c3b1e951c0"
+Template: "59191524-2efc-4b12-a0bc-18c3b1e951c0"
+Path: /sitecore/templates/Project/Example/Page Type Template/Bucket Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
+  Hint: __Is Bucket
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180926T081058Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
